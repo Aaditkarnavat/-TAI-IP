@@ -1,23 +1,38 @@
-# Stock Price Predictor
+# TECH-A Technologies Internship Tasks
 
-This project demonstrates a simple machine learning approach to stock price prediction using historical closing prices.
+**Machine Learning Internship | Pune, India | Mar–Apr 2024**
 
-## Overview
-The model uses the previous day's closing price to predict the next day's price using a linear regression model.  
-The goal of this project is to showcase a clean end-to-end ML workflow rather than provide financial advice.
+Collection of ML tasks and projects completed during the internship at Tech A Technologies.
+
+## Contents
+
+This repository contains several ML notebooks and scripts covering:
+
+### Stock Price Predictor (`stock_predictor.py`)
+- LSTM-based model for financial time-series forecasting
+- Feature engineering, pre-processing, normalization, and evaluation
+- Historical stock price data analysis using Python
+
+### Iris Classification (`Iris Classification.ipynb`)
+- Classic classification task using the Iris dataset
+- Model training and evaluation using Scikit-learn
+
+### Titanic Survival Prediction (`Titanic.ipynb`)
+- Binary classification on the Titanic dataset
+- Feature preprocessing and model comparison
 
 ## Technologies Used
-- Python
-- Pandas & NumPy
-- Scikit-learn
-- Matplotlib
 
-## Approach
-1. Load and preprocess historical stock price data
-2. Create lag-based features
-3. Train a regression model
-4. Evaluate predictions using mean squared error
-5. Visualize actual vs predicted prices
+- **Languages:** Python
+- **Libraries:** Pandas, NumPy, Scikit-learn, TensorFlow/Keras (LSTM)
+- **Tools:** Jupyter Notebook, Matplotlib
 
-## Disclaimer
-This project is for educational purposes only and does not constitute financial advice.
+## My Contribution
+
+- Developed LSTM-based forecasting models for financial time-series prediction
+- Implemented structured ML pipelines with preprocessing and feature engineering
+- Evaluated model performance using standard metrics and visualizations
+
+---
+
+This work was completed during my Machine Learning internship at Tech A Technologies.
